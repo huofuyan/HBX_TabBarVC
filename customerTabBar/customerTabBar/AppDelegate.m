@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HBX_NavigationViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    Class cls = NSClassFromString(@"HBX_MainController");
+    
+    UIViewController *vc = [[cls alloc] init];
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    _window.rootViewController = vc;
+    
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 
