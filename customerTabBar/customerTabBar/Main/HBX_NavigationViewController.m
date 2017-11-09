@@ -24,6 +24,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    
+  
+    
+    if ([viewController isKindOfClass:NSClassFromString(@"TwoViewController")]) {
+        
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+      [super pushViewController:viewController animated:animated];
+    
+    CGRect frame = self.tabBarController.tabBar.frame;
+    frame.origin.y = [UIScreen mainScreen].bounds.size.height - frame.size.height;
+    self.tabBarController.tabBar.frame = frame;
+    
+}
+
 /*
 #pragma mark - Navigation
 

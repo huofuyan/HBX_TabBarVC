@@ -1,32 +1,23 @@
 //
-//  HBX_HomeViewController.m
+//  TwoViewController.m
 //  customerTabBar
 //
-//  Created by apple on 2017/10/25.
+//  Created by apple on 2017/10/26.
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
-#import "HBX_HomeViewController.h"
 #import "TwoViewController.h"
 
-@interface HBX_HomeViewController ()
+@interface TwoViewController ()
 
 @end
 
-@implementation HBX_HomeViewController
+@implementation TwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    
-    
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
-    [self.navigationController pushViewController:[TwoViewController new] animated:YES];
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {

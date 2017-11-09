@@ -17,7 +17,7 @@
 ///中间的按钮
 @property (nonatomic, strong) UIButton *centerButton;
 
-
+@property (nonatomic,assign)UIEdgeInsets oldSafeAreaInsets;
 
 @end
 
@@ -114,6 +114,7 @@
     }
     return nil;
 }
+
 
 
 

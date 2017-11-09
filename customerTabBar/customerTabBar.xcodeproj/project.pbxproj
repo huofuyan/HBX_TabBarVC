@@ -22,6 +22,7 @@
 		18F5B4901FA08A4700B286B5 /* HBX_MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5B48F1FA08A4700B286B5 /* HBX_MineViewController.m */; };
 		18F5B4941FA170CC00B286B5 /* HBX_CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5B4931FA170CC00B286B5 /* HBX_CenterViewController.m */; };
 		18F5B4991FA1B73E00B286B5 /* HBX_CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5B4981FA1B73E00B286B5 /* HBX_CustomTabBar.m */; };
+		18F5B49C1FA1E97500B286B5 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5B49B1FA1E97500B286B5 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		18F5B4931FA170CC00B286B5 /* HBX_CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBX_CenterViewController.m; sourceTree = "<group>"; };
 		18F5B4971FA1B73E00B286B5 /* HBX_CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBX_CustomTabBar.h; sourceTree = "<group>"; };
 		18F5B4981FA1B73E00B286B5 /* HBX_CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBX_CustomTabBar.m; sourceTree = "<group>"; };
+		18F5B49A1FA1E97500B286B5 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		18F5B49B1FA1E97500B286B5 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				18F5B4871FA089BF00B286B5 /* Mine */,
 				18F5B4861FA0897F00B286B5 /* More */,
 				18F5B4851FA0897700B286B5 /* Home */,
+				18F5B49A1FA1E97500B286B5 /* TwoViewController.h */,
+				18F5B49B1FA1E97500B286B5 /* TwoViewController.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F5B49C1FA1E97500B286B5 /* TwoViewController.m in Sources */,
 				18F5B4841FA080C600B286B5 /* HBX_NavigationViewController.m in Sources */,
 				18F5B44F1FA07EED00B286B5 /* ViewController.m in Sources */,
 				18F5B4941FA170CC00B286B5 /* HBX_CenterViewController.m in Sources */,
